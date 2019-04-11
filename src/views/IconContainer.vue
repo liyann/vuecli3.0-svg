@@ -10,7 +10,10 @@
           width="80"
           height="80"
           viewBox="0 0 250 250"
-          style="color:#fff;fill:#46bd87;position: absolute; top: 0; border: 0; right: 0;"
+          :style="
+            'color:#fff;position: absolute; top: 0; border: 0; right: 0;fill:' +
+              selectedColor
+          "
           aria-hidden="true"
         >
           <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -29,7 +32,7 @@
       </a>
     </div>
     <div class="color-picker">
-      <div style="padding-left:20px;">try another color:</div>
+      <div style="padding-right:10px;">try another color:</div>
       <el-color-picker v-model="selectedColor"></el-color-picker>
     </div>
     <div class="icons-container">
