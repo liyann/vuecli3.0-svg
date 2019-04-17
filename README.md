@@ -1,8 +1,6 @@
 # @vue/cli 3.0 使用 svg-sprite-loader 加载本地 SVG 文件
 
-[TOC]
-
-[online](https://nusr.github.io/vue-svg/dist)
+[online demo](https://nusr.github.io/vuecli3.0-svg)
 [github](https://github.com/nusr/vuecli3.0-svg)
 
 [Vue cli 3.0](https://cli.vuejs.org/) 使用 svg-symbol(svg 雪碧图)，整个 [https://www.iconfont.cn](https://www.iconfont.cn) 的图标库为你所用，加快开发速度.
