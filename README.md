@@ -121,3 +121,7 @@ export default {
 |-|-|-|
 |iconName|svg 文件名，不要加上后缀|string|
 |className|图标样式类|string|
+
+## React
+
+[Ant Design](https://ant.design/components/icon-cn/#SVG-%E5%9B%BE%E6%A0%87) 组件库使用了 Svg-Symbol，也提供了对 Svg-Symbol 的支持。
