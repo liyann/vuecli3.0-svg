@@ -13,7 +13,7 @@ cd dist
 
 git init
 git add -A
-git commit -m 'update github pages'
+git commit -m 'Update Github Gages'
 
 # push to gh-pages branch
 git push -f git@github.com:nusr/vuecli3.0-svg.git master:gh-pages

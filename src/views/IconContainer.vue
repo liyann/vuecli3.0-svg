@@ -33,7 +33,7 @@
     </div>
     <div class="color-picker">
       <div style="padding-right:10px;">change color:</div>
-      <el-color-picker v-model="selectedColor"></el-color-picker>
+      <input type="color" v-model="selectedColor" />
     </div>
     <div class="icons-container">
       <div class="icon-item" v-for="item of iconsMap" :key="item">
@@ -46,15 +46,13 @@
 </template>
 
 <script>
-import { ColorPicker } from "element-ui";
 import SvgIcon from "../components/SvgIcon";
 import icons from "./icon";
 
 export default {
   name: "IconContainer",
   components: {
-    SvgIcon,
-    ElColorPicker: ColorPicker
+    SvgIcon
   },
   data() {
     return {
@@ -79,6 +77,7 @@ export default {
   justify-content: flex-end;
   align-items: center;
   padding-right: 100px;
+  position: relative;
 }
 
 .icons-container {
@@ -88,6 +87,7 @@ export default {
 
 .icons-container .icon-item {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
+  width: 33%;
 }
 </style>
